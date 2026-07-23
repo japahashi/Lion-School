@@ -1,5 +1,59 @@
-*{
+* {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3347B0;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.lionschool img {
+    display: flex;
+    width: 7vw;
+    height: 4vw;
+    margin-left: 4vw;
+}
+
+.sair {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 25px;
+}
+
+.sair img {
+    display: flex;
+    width: 2.5vw;
+    height: 2;
     
 }
+
+.sair p {
+    display: flex;
+    margin-right: 4vw;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: #3347B0;
+}
+main{
+    flex-grow: 1;
+}
+
