@@ -51,6 +51,7 @@ header {
 
 main{
     flex-grow: 1;
+    display: flex;
     
 }
 footer {
@@ -92,6 +93,7 @@ footer {
     text-align: center;
 }
 .copyright p{
+    font-size: large;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
@@ -108,4 +110,53 @@ footer {
     width: 3vw;
     height: 6vh;
 }
+.texto-computador{
+    display: flex;
+    width: 35vw;
+    height: 78vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.texto-computador h1{
+    font-size: 6.5vh;
+    color: black;
+    font-weight: 200;
+    
+    
+}
+.texto-computador span{
+    font-size: 6.5vh;
+    color: #3347B0;
+    font-weight: 500;
 
+}
+.texto-computador img{
+    display: flex;
+    height: 25vh;
+    width: 25vw;
+}
+.pessoa{
+    display: flex;
+    width: 35vw;
+    height: 78vh;
+    justify-content: center;
+    align-items: center;
+}
+.pessoa img{
+    height: 40vh;
+    width: 15vw;
+    
+}
+.cursos{
+    display: flex;
+    width: 35vw;
+    height: 78vh;
+}
+.cursos div{
+    background-color: #3347B0;
+    
+}
