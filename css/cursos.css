@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+header {
+    background-color: #3347B0;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.lionschool img {
+    display: flex;
+    width: 7vw;
+    height: 4vw;
+    margin-left: 4vw;
+}
+
+.sair {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 25px;
+}
+
+.sair img {
+    display: flex;
+    width: 2.5vw;
+    height: 2;
+
+}
+
+.sair p {
+    display: flex;
+    margin-right: 4vw;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.status {
+    display: flex;
+    background-color: #BCC2E5;
+    width: 100vw;
+    height: 4vh;
+    align-items: center;
+}
+
+.status p {
+    display: flex;
+    width: 6vw;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: #3347B0;
+    font-size: larger;
+}
+
+.situacao {
+    display: flex;
+    width: 90vw;
+    height: 4vh;
+    justify-content: end;
+
+
+}
+
+.situacao p {
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3347B0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.cursando {
+    display: flex;
+    width: 1vw;
+    height: 4vh;
+    align-items: center;
+}
+
+.cursando div {
+    display: flex;
+    background-color: #3347B0;
+    width: 0.8vw;
+    height: 1.5vh;
+}
+
+.finalizado {
+    display: flex;
+    width: 1vw;
+    height: 4vh;
+    align-items: center;
+}
+
+.finalizado div {
+    display: flex;
+    background-color: #E5B657;
+    width: 0.8vw;
+    height: 1.5vh;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.titulo {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo p {
+    display: flex;
+    color: #3347B0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 6vh;
+
+}
+
+footer {
+    width: 100%;
+    height: 12vh;
+    background-color: #3347B0;
+    display: flex;
+}
+
+.info {
+    width: 30vw;
+    height: 12vh;
+
+    display: grid;
+    grid-template-columns: 2vw 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-flow: column;
+
+    align-items: center;
+    column-gap: 0.5vw;
+    margin-left: 4vw;
+
+}
+
+.info img {
+    width: 1.2vw;
+    height: 2vh;
+}
+
+.info p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+.copyright {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.copyright p {
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.midia {
+    display: flex;
+    width: 36vw;
+    gap: 1vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.midia img {
+    display: flex;
+    width: 3vw;
+    height: 6vh;
+}
